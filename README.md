@@ -1,6 +1,6 @@
 # Open Secrets
 
-This library is used dealing with secrets (the ones usually kept in environment variables) in 2 environments: Google Cloud and local.
+This library is used for dealing with secrets (the ones usually kept in environment variables) in 2 environments: Google Cloud and local.
 
 Google Cloud has a service for storying secrets - Secret Manager.
 It is convenient to have local-environment counterparts of these secrets. These local versions could be viewed as mocks, e.g. we can start a couple of services locally, and use `localhost` with a couple of different ports instead of the URLs of the deployed services.
